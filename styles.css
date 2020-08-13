@@ -75,6 +75,13 @@ h2 {
 h3 {
   font-family: OpenSans, sans-serif;
   font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #48555B;
+}
+strong {
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
   font-size: 20px;
   line-height: 27px;
   color: #48555B;
@@ -82,6 +89,7 @@ h3 {
 p {
   font-family: OpenSans, sans-serif;
   font-size: 13px;
+  line-height: 23px;
   color: #48555B;
 }
 a {
@@ -182,7 +190,6 @@ header p {
 }
 .about_discr p {
   margin-top: 30px;
-  line-height: 23px;
 }
 .cards_block img {
   margin-left: 20px;
@@ -212,4 +219,26 @@ header p {
   font-family: OpenSans, sans-serif;
   font-size: 13px;
   font-weight: bold;
+}
+/*============Work=============*/
+.work_block {
+  display: flex;
+  justify-content: between;
+  margin-top: 80px;
+}
+.work_card {
+  width: 295px;
+  height: 330px;
+}
+.work_card img {
+  margin-top: 38px;
+  margin-left: 23px;
+}
+.work_card h3 {
+  margin-top: 25px;
+  margin-left: 23px;
+}
+.work_card p {
+  margin-top: 13px;
+  margin-left: 23px;
 }
