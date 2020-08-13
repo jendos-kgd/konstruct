@@ -101,13 +101,20 @@ hr {
   size: 2px;
   margin-top: 10px;
 }
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  color: #ffffff;
+  border: none;
+  font-family: OpenSans, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
 .central_container {
   max-width: 941px;
   margin: 0 auto;
 }
-
-
-
 
 /*============Header=============*/
 header {
@@ -210,16 +217,6 @@ header p {
   font-size: 11px;
   line-height: 19px;
 }
-.services_block button {
-  width: 150px;
-  height: 40px;
-  background-color: #00A4E5;
-  color: #ffffff;
-  border: none;
-  font-family: OpenSans, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-}
 /*============Work=============*/
 .work_block {
   display: flex;
@@ -241,4 +238,48 @@ header p {
 .work_card p {
   margin-top: 13px;
   margin-left: 23px;
+}
+/*=============Contact===========*/
+.contact_block {
+  margin-top: 235px;
+  max-width: 1440px;
+  height: 500px;
+  background-image: url('img/contact_bg.jpg');
+}
+.contact_block p {
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+}
+.center_button {
+  margin-top: 35px;
+  text-align: center;
+}
+.signup_block {
+  height: 100px;
+  padding-top: 30px;
+  background-color: #171819;
+  display: flex;
+  justify-content: center;
+}
+.signup_block p {
+  color: #ffffff;
+  font-weight: bold;font-size: 22px;
+  line-height: 30px;
+  margin-right: 70px;
+}
+.signup input {
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 14px;
+  float: left;
+}
+.signup button {
+  float: right;
 }
