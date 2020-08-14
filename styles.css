@@ -84,6 +84,8 @@ h4 {
 	font-weight: normal;
 	font-size: 11px;
 	line-height: 15px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 	color: #ffffff;
 }
@@ -296,19 +298,58 @@ header p {
 	width: 100%;
 	height: 240px;
 	background-color: #141A20;
+}
+.footer_container {
+	height: 240px;
 	display: flex;
 	justify-content: space-between;
 }
+
 .company_block {
 	max-width: 250px;
 }
 .footer_logo {
 	height: 23px;
-	margin-top: 19px;
 }
 .company_block p {
 	color: #ffffff;
 	font-size: 11px;
 	line-height: 19px;
 	margin-top: 16px;
+}
+.links_block {
+	height: 240px;
+}
+.links_block a {
+	font-family: OpenSans, sans-serif;
+	font-size: 11px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.links_block_1,
+.links_block_2,
+.links_block_3 {
+	display: inline-block;
+	width: 76px;
+	margin-right: 35px;
+	vertical-align: top;
+}
+.contacts_block p {
+	font-size: 11px;
+	line-height: 16px;
+	font-style: normal;
+	color: #ffffff;
+}
+.copyright_block {
+	background-color: #171819;
+	height: 60px;
+}
+.copyright_block p {
+	font-size: 11px;
+	line-height: 15px;
+	color: #ffffff;
+	padding-top: 22px;
+	text-align: center;
 }
