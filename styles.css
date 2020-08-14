@@ -103,6 +103,7 @@ p {
   color: #48555B;
 }
 a {
+	font-family: OpenSans, sans-serif;
   text-decoration: none;
 }
 hr {
@@ -321,7 +322,6 @@ header p {
 	height: 240px;
 }
 .links_block a {
-	font-family: OpenSans, sans-serif;
 	font-size: 11px;
 	line-height: 25px;
 	font-weight: 600;
