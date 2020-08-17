@@ -335,10 +335,32 @@ header p {
 	font-style: normal;
 	color: #ffffff;
 }
+.social_block {
+	margin-top: 72px;
+	margin-left: 45px;
+}
+.social_block div {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 25px;
+}
+.fb_block {
+	background-image: url('img/sprite_social.png');
+}
+.tw_block {
+	background-image: url('img/sprite_social.png');
+	background-position: center;
+}
+.google_block {
+	background-image: url('img/sprite_social.png');
+	background-position: right;
+}
 .copyright_block {
 	background-color: #171819;
 	height: 60px;
 }
+
 .copyright_block p {
 	font-size: 11px;
 	line-height: 15px;
@@ -493,8 +515,6 @@ header p {
 		margin-top: 40px;
 	}
 	.social_block {
-		margin-top: 40px;
-		width: 90px;
+		margin: 40px 0 0 0;
 	}
-
 }
